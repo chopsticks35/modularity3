@@ -1,0 +1,42 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    
+}
+.form1 {
+    
+    margin: auto;
+    max-width: 500px;
+    padding: 0px 20px 10px 20px;
+    border: 1px, solid, #000;
+    position: relative;
+    margin-left: -100px;
+    overflow: hidden
+}
+
+
+.signup-form {
+    margin: auto;
+    max-width: 500px;
+    padding: 20px 20px 20px 20px;
+    border: 1px, solid, #000;
+    float:right;
+    display: block;
+    border-radius: 5px;
+}
+
+.signup-form label {
+    
+    display:block;
+    float: left;
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 10px;
+}
+
