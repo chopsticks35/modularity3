@@ -11,10 +11,7 @@ body {
 }
 .form1 {
     
-    margin: auto;
     max-width: 500px;
-    padding: 0px 20px 10px 20px;
-    border: 1px, solid, #000;
     position: relative;
     margin-left: -100px;
     overflow: hidden
@@ -25,10 +22,14 @@ body {
     margin: auto;
     max-width: 500px;
     padding: 20px 20px 20px 20px;
-    border: 1px, solid, #000;
     float:right;
     display: block;
-    border-radius: 5px;
+}
+
+.signup-form input {
+    
+    border: 1px, solid, #ddd;
+    border-radius: 10%;
 }
 
 .signup-form label {
@@ -40,3 +41,26 @@ body {
     margin-top: 10px;
 }
 
+.form2 {
+    
+    max-width: 500px;
+    position: relative;
+    margin-left: 60px;
+}
+.comp-form {
+    margin:auto;
+    padding: 10px;
+    float:center;
+    display: block;
+}
+
+.comp-form input {
+    border: 1px, solid, #ddd;
+    border-radius: 10%;
+    float: left;
+    
+}
+
+#state input {
+    max-width: 10px;
+}
